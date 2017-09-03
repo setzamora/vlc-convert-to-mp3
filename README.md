@@ -1,6 +1,7 @@
 # Convert wma, aac, ogg and m4a to mp3
 
-VLC is required for this script to work. This script assumes that VLC is installed on the default location.
+VLC is required for this script to work.
 
-Download VLC here:
 https://www.videolan.org/vlc/download-windows.html
+
+Modify the inputDirectory and outputDirectory variables accordingly.
