@@ -12,7 +12,6 @@ foreach($inputFile in Get-ChildItem "$inputDirectory" -Recurse -Include *.wma,*.
     $outputFileName = [System.IO.Path]::GetFileNameWithoutExtension($inputFile.FullName) + ".$codec";
     $outputFileName = [System.IO.Path]::Combine($outputDirectory, $outputFileName);
 
-    # Find where VLC is installed
     $programFiles = ${env:ProgramFiles(x86)};
     if($programFiles -eq $null) 
     { 
